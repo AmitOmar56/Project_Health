@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lifeplaytrip.activity.HealthfiyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/account_sign"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:background="#ad14c7b5"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="5dp"
+                android:text="Health Tools"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:padding="5dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="Here are some interactive tools that will inspire you to get moving and eat nutrition-wise. These tools are for you to help measure your fitness, nutrition level, weight loss goals and will give you a general idea about the state of your health." />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp">
+
+
+                <TextView
+                    android:id="@+id/body_Mass_Index"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#AD3AEDDB"
+                    android:gravity="center_horizontal"
+                    android:text="Body Mass Index"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/body_Mass_Index_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/body_Mass_Index"
+                    android:text="Body Mass Index calculator allows you to calculate your BMI and assess if you have a healthy weight in proportion to your height." />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/body_Mass_Index_text"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button_border"                    android:onClick="bmiCal"
+                    android:padding="5dp"
+                    android:text="Calculate" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:id="@+id/target_Heart_Rate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#AD3AEDDB"
+                    android:gravity="center_horizontal"
+                    android:text="Target Heart Rate"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/target_Heart_Rate_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/target_Heart_Rate"
+                    android:text="The Bolohealth Target Heart Rate Calculator uses your age to work out your maximum heart rate (measured in heartbeats per minute)." />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/target_Heart_Rate_text"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button_border"                    android:onClick="heartCal"
+                    android:padding="5dp"
+                    android:text="Calculate" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@android:color/darker_gray"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="1dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:id="@+id/calorieCalculator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#AD3AEDDB"
+                    android:gravity="center_horizontal"
+                    android:text="Calorie Calculator"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/calorietext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/calorieCalculator"
+                    android:text="Calorie calculator gives suggestion about daily needs of fat, protein, carbohydrate" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/calorietext"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button_border"                    android:onClick="calorieCal"
+                    android:padding="5dp"
+                    android:text="Calculate" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@android:color/darker_gray"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp">
+
+
+                <TextView
+                    android:id="@+id/lDL_Cholestrol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#AD3AEDDB"
+                    android:gravity="center_horizontal"
+                    android:text="Pregnancy Due Date"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/ldltext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lDL_Cholestrol"
+                    android:text="Have you tried adding, subtracting, multiplying, and counting on your fingers, and you're still not sure when your baby is due?" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/ldltext"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button_border"                    android:padding="5dp"
+                    android:onClick="pregnancy"
+                    android:text="Calculate" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

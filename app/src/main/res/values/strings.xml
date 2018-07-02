@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Safe and Secure Faridabad</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="spinner_title">Select</string>
+    <string name="weight_error">please Enter Weight</string>
+    <string name="please_fill_all_required_field">please fill all require field</string>
+    <string name="age_error">Please enter age</string>
+    <string name="gender_error">Please enter gender</string>
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[>>]]></string>
+    <string name="forward"><![CDATA[<<]]></string>
+    <string name="pause">||</string>
+    <string name="play">play</string>
+    <string name="name_error">please enter name</string>
+    <string name="password_error">enter password</string>
+    <string name="enter_email">enter email</string>
+    <string name="enter_valid_email">enter valid email</string>
+    <string name="Phone_error">enter phone number</string>
+    <string name="Phone_length_validation">enter valid number</string>
+</resources>

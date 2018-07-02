@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lifeplaytrip.activity.Yoga_HindiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/account_sign"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:background="#ad14c7b5"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:paddingLeft="5dp"
+                android:text="योगासन "
+                android:textSize="18sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:padding="5dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:padding="5dp"
+            android:text=" योग एक प्राचीन भारतीय जीवन-पद्धति है। जिसमें शरीर, मन और आत्मा को एक साथ लाने (योग) का काम होता है। योग के माध्यम से शरीर, मन और मस्तिष्क को पूर्ण रूप से स्वस्थ किया जा सकता है। तीनों के स्वस्थ रहने से आप स्‍वयं को स्वस्थ महसूस करते हैं। योग के जरिए न सिर्फ बीमारियों का निदान किया जाता है, बल्कि इसे अपनाकर कई शारीरिक और मानसिक तकलीफों को भी दूर किया जा सकता है। "
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="अर्ध चन्द्रासन "
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:text="अर्ध चन्द्रासन जैसा कि नाम से पता चल रहा है, इस आसन में शरीर को अर्ध चन्द्र के आकार में घुमाया जाता है। इसको भी खड़े रहकर किया जाता है। यह आसन पूरे शरीर के लिए लाभप्रद है।"
+            android:textColor="#E50D5179" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/ardh" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="भुजंग आसन"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:text="भुजंग आसन का रोज अभ्यास से कमर की परेशानियां दूर होती हैं। ये आसन पीठ और मेरूदंड के लिए लाभकारी होता है।"
+            android:textColor="#E50D5179" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/bhujang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="बाल आसन "
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:text="बाल आसन से तनाव दूर होता है। शरीर को संतुलिच और रक्त संचार को सामान्य बनाने के लिए इस आसन को किया जाता है।"
+            android:textColor="#E50D5179" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/balasana" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="मर्जरियासन "
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:text="बिल्ली को मार्जर भी कहते हैं, इसलिए इसे मर्जरियासन कहते हैं। यह योग आसन शरीर को उर्जावान और सक्रिय बनाये रखने के लिए बहुत फायदेमंद है। इस आसन से रीढ़ की हड्डियों में खिंचाव होता है जो शरीर को लचीला बनाता है।"
+            android:textColor="#E50D5179" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/marjariasana" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="नटराज आसन"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:text="नटराज आसन फेफड़ों की कार्यक्षमता को बढ़ाता है। इय योग से कंधे मजबूत होते हैं साथ ही बाहें और पैर भी मजबूत होते हैं। जिनको लगातार बैठकर काम करना होता है उनके लिए नटराज आसन बहुत ही फायदेमंद है। "
+            android:textColor="#E50D5179" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/natrasana" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="गोमुख आसन"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:text="गोमुख आसन शरीर को सुडौल  बनाने वाला योग है। योग की इस मुद्रा को बैठकर किया जाता है। गोमुख आसन स्त्रियों के लिए बहुत ही लाभप्रद व्यायाम है।  "
+            android:textColor="#E50D5179" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/gomukhasana" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="हलासन"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:text="हलासन के रोज अभ्यास से रीढ़ की हड्डियां लचीली रहती है। वृद्धावस्था में हड्डियों की कई प्रकार की परेशानियां हो जाती हैं। यह आसन पेट के रोग, थायराइड, दमा, कफ एवं रक्त सम्बन्धी रोगों के लिए बहुत ही लाभकारी होता है। "
+            android:textColor="#E50D5179" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/halasana" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="सेतु बांध आसन"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:text="सेतु बांध आसन पेट की मांसपेशियों और जंघों के एक अच्छा व्यायाम है। जब आप इस योग का अभ्यास करते है तो शरीर में उर्जा का संचार होता है।"
+            android:textColor="#E50D5179" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/setu_bandh_asana" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="रॉकिंग चेयर"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:text="रॉकिंग चेयर योग करने से रीढ़ की हड्डियों में ऊर्जा का संचार होता है साथ ही शरीर में रक्त का संचार तेज गति होता है।"
+            android:textColor="#E50D5179" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rocking_chair_asana" />
+    </LinearLayout>
+</ScrollView>
